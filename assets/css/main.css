@@ -214,7 +214,7 @@ li {
 }
 /* line 198, ../scss/main.scss */
 .work .bikeBottom2 {
-  background: url("/assets/img/bgbottom2.jpg") center center scroll;
+  background: url("../img/bgbottom2.jpg") center center scroll;
   background-size: cover;
 }
 /* line 202, ../scss/main.scss */
@@ -233,7 +233,7 @@ li {
 }
 /* line 215, ../scss/main.scss */
 .work .bikeLeft3 {
-  background: url("/assets/img/bg4.jpg") center center scroll;
+  background: url("../img/bg4.jpg") center center scroll;
   background-size: cover;
 }
 /* line 219, ../scss/main.scss */
@@ -252,7 +252,7 @@ li {
 }
 /* line 235, ../scss/main.scss */
 .work .bikeBottom3 {
-  background: url("/assets/img/bgbottom3.jpg") center center scroll;
+  background: url("../img/bgbottom3.jpg") center center scroll;
   background-size: cover;
 }
 /* line 239, ../scss/main.scss */
@@ -271,7 +271,7 @@ li {
 }
 /* line 252, ../scss/main.scss */
 .work .bikeRight3 {
-  background: url("/assets/img/bg5.jpg") center center scroll;
+  background: url("../img/bg5.jpg") center center scroll;
   background-size: cover;
 }
 /* line 256, ../scss/main.scss */
@@ -327,7 +327,7 @@ li {
 
 /* line 301, ../scss/main.scss */
 .shop .shop1 {
-  background: url("/assets/img/shop1.jpg") center center scroll;
+  background: url("../img/shop1.jpg") center center scroll;
   background-size: cover;
   height: 267px;
   float: left;
@@ -347,12 +347,12 @@ li {
 }
 /* line 317, ../scss/main.scss */
 .shop .shop1 .shopOverlay:hover {
-  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background: url("../img/shopnow.png") center center no-repeat scroll;
   background-color: rgba(100, 194, 150, 0.7);
 }
 /* line 323, ../scss/main.scss */
 .shop .shop2 {
-  background: url("/assets/img/shop2.jpg") center center scroll;
+  background: url("../img/shop2.jpg") center center scroll;
   background-size: cover;
   height: 267px;
   width: 50%;
@@ -371,12 +371,12 @@ li {
 }
 /* line 338, ../scss/main.scss */
 .shop .shop2 .shopOverlay:hover {
-  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background: url("../img/shopnow.png") center center no-repeat scroll;
   background-color: rgba(100, 194, 150, 0.7);
 }
 /* line 344, ../scss/main.scss */
 .shop .shop3 {
-  background: url("/assets/img/shop3.jpg") center center scroll;
+  background: url("../img/shop3.jpg") center center scroll;
   background-size: cover;
   width: 100%;
   height: 267px;
@@ -395,12 +395,12 @@ li {
 }
 /* line 359, ../scss/main.scss */
 .shop .shop3 .shopOverlay:hover {
-  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background: url("../img/shopnow.png") center center no-repeat scroll;
   background-color: rgba(100, 194, 150, 0.7);
 }
 /* line 365, ../scss/main.scss */
 .shop .shop4 {
-  background: url("/assets/img/shop4.jpg") center center scroll;
+  background: url("../img/shop4.jpg") center center scroll;
   background-size: cover;
   height: 534px;
   width: 50%;
@@ -419,12 +419,12 @@ li {
 }
 /* line 380, ../scss/main.scss */
 .shop .shop4 .shopOverlay:hover {
-  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background: url("../img/shopnow.png") center center no-repeat scroll;
   background-color: rgba(100, 194, 150, 0.7);
 }
 /* line 386, ../scss/main.scss */
 .shop .shop5 {
-  background: url("/assets/img/shop5.jpg") center center scroll;
+  background: url("../img/shop5.jpg") center center scroll;
   background-size: cover;
   height: 534px;
   width: 50%;
@@ -443,12 +443,12 @@ li {
 }
 /* line 401, ../scss/main.scss */
 .shop .shop5 .shopOverlay:hover {
-  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background: url("../img/shopnow.png") center center no-repeat scroll;
   background-color: rgba(100, 194, 150, 0.7);
 }
 /* line 407, ../scss/main.scss */
 .shop .shop6 {
-  background: url("/assets/img/shop6.jpg") center center scroll;
+  background: url("../img/shop6.jpg") center center scroll;
   background-size: cover;
   width: 100%;
   height: 267px;
@@ -466,12 +466,12 @@ li {
 }
 /* line 421, ../scss/main.scss */
 .shop .shop6 .shopOverlay:hover {
-  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background: url("../img/shopnow.png") center center no-repeat scroll;
   background-color: rgba(100, 194, 150, 0.7);
 }
 /* line 427, ../scss/main.scss */
 .shop .shop7 {
-  background: url("/assets/img/shop7.jpg") center center scroll;
+  background: url("../img/shop7.jpg") center center scroll;
   background-size: cover;
   width: 100%;
   height: 267px;
@@ -489,7 +489,7 @@ li {
 }
 /* line 441, ../scss/main.scss */
 .shop .shop7 .shopOverlay:hover {
-  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background: url("../img/shopnow.png") center center no-repeat scroll;
   background-color: rgba(100, 194, 150, 0.7);
 }
 /* line 447, ../scss/main.scss */

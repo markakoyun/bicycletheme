@@ -197,7 +197,7 @@
         }
         .bikeBottom2 {
             @extend .bikeBottom;
-            background: url('/assets/img/bgbottom2.jpg') center center scroll;
+            background: url('../img/bgbottom2.jpg') center center scroll;
             background-size: cover;
             .overlay {
                 height: 100%;
@@ -214,7 +214,7 @@
         }
         .bikeLeft3 {
             @extend .bikeLeft1;
-            background: url('/assets/img/bg4.jpg') center center scroll;
+            background: url('../img/bg4.jpg') center center scroll;
             background-size: cover;
             .overlay {
                 height: 100%;
@@ -234,7 +234,7 @@
         }
         .bikeBottom3 {
             @extend .bikeBottom;
-            background: url('/assets/img/bgbottom3.jpg') center center scroll;
+            background: url('../img/bgbottom3.jpg') center center scroll;
             background-size: cover;
             .overlay {
                 height: 100%;
@@ -251,7 +251,7 @@
         }
         .bikeRight3 {
             @extend .bikeLeft1;
-            background: url('/assets/img/bg5.jpg') center center scroll;
+            background: url('../img/bg5.jpg') center center scroll;
             background-size: cover;
             .overlay {
                 height: 100%;
@@ -299,7 +299,7 @@
     
     .shop {
         .shop1 {
-            background: url('/assets/img/shop1.jpg') center center scroll;
+            background: url('../img/shop1.jpg') center center scroll;
             background-size: cover;
             height: 267px;
             float: left;
@@ -315,13 +315,13 @@
                 background-color: rgba(100, 194, 150, 0);
                 transition: all .5s ease-in;
                 &:hover {
-                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background: url('../img/shopnow.png') center center no-repeat scroll;
                     background-color: rgba(100, 194, 150, 0.7);
                 }
             }
         }
         .shop2 {
-            background: url('/assets/img/shop2.jpg') center center scroll;
+            background: url('../img/shop2.jpg') center center scroll;
             background-size: cover;
             height: 267px;
             width: 50%;
@@ -336,13 +336,13 @@
                 background-color: rgba(100, 194, 150, 0);
                 transition: all .5s ease-in;
                 &:hover {
-                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background: url('../img/shopnow.png') center center no-repeat scroll;
                     background-color: rgba(100, 194, 150, 0.7);
                 }
             }
         }
         .shop3 {
-            background: url('/assets/img/shop3.jpg') center center scroll;
+            background: url('../img/shop3.jpg') center center scroll;
             background-size: cover;
             width: 100%;
             height: 267px;
@@ -357,13 +357,13 @@
                 background-color: rgba(100, 194, 150, 0);
                 transition: all .5s ease-in;
                 &:hover {
-                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background: url('../img/shopnow.png') center center no-repeat scroll;
                     background-color: rgba(100, 194, 150, 0.7);
                 }
             }
         }
         .shop4 {
-            background: url('/assets/img/shop4.jpg') center center scroll;
+            background: url('../img/shop4.jpg') center center scroll;
             background-size: cover;
             height: 534px;
             width: 50%;
@@ -378,13 +378,13 @@
                 background-color: rgba(100, 194, 150, 0);
                 transition: all .5s ease-in;
                 &:hover {
-                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background: url('../img/shopnow.png') center center no-repeat scroll;
                     background-color: rgba(100, 194, 150, 0.7);
                 }
             }
         }
         .shop5 {
-            background: url('/assets/img/shop5.jpg') center center scroll;
+            background: url('../img/shop5.jpg') center center scroll;
             background-size: cover;
             height: 534px;
             width: 50%;
@@ -399,13 +399,13 @@
                 background-color: rgba(100, 194, 150, 0);
                 transition: all .5s ease-in;
                 &:hover {
-                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background: url('../img/shopnow.png') center center no-repeat scroll;
                     background-color: rgba(100, 194, 150, 0.7);
                 }
             }
         }
         .shop6 {
-            background: url('/assets/img/shop6.jpg') center center scroll;
+            background: url('../img/shop6.jpg') center center scroll;
             background-size: cover;
             width: 100%;
             height: 267px;
@@ -419,13 +419,13 @@
                 background-color: rgba(100, 194, 150, 0);
                 transition: all .5s ease-in;
                 &:hover {
-                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background: url('../img/shopnow.png') center center no-repeat scroll;
                     background-color: rgba(100, 194, 150, 0.7);
                 }
             }
         }
         .shop7 {
-            background: url('/assets/img/shop7.jpg') center center scroll;
+            background: url('../img/shop7.jpg') center center scroll;
             background-size: cover;
             width: 100%;
             height: 267px;
@@ -439,7 +439,7 @@
                 background-color: rgba(100, 194, 150, 0);
                 transition: all .7s ease-in;
                 &:hover {
-                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background: url('../img/shopnow.png') center center no-repeat scroll;
                     background-color: rgba(100, 194, 150, 0.7);
                 }
             }
