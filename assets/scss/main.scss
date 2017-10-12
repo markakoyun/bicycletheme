@@ -1,0 +1,539 @@
+    //Global Class
+    $primary-color: #f7f7f7;
+    $secondary: #282828;
+    $font-title-color: #353738;
+    $font-color: #848789;
+    $underline-color :#d7d7d7;
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    p {
+        color: $font-color;
+        line-height: 180%;
+    }
+    
+    a {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    ul {
+        text-decoration: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    //Helper Class
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 30px 0 20px 0;
+    }
+    
+    .paddingNone {
+        padding: 0;
+    }
+    
+    .clear {
+        &::after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+    }
+    
+    //Main
+    .header {
+        background: url(../img/bg.jpg) center center scroll;
+        background-size: cover;
+        height: 100vh;
+        padding-top: 30px;
+        .menu {
+            nav ul {
+                text-align: center;
+                li {
+                    display: inline;
+                    a {
+                        color: $font-title-color;
+                        font-size: 20px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .menuMobi {
+                float: right;
+                position: absolute;
+                top: 50px;
+                left: 90%;
+                color: #282828;
+                display: none;
+            }
+            .mobileLogo {
+                text-align: center;
+                .mobLogo {
+                    display: none;
+                }
+            }
+        }
+    }
+    
+    .menuRight,
+    .menuLeft {
+        display: inline;
+    }
+    
+    .menuRight {
+        margin-left: 50px;
+        li:nth-child(1) {
+            margin-right: 40px;
+        }
+    }
+    
+    .menuLeft {
+        margin-right: 50px;
+        li:nth-child(2) {
+            margin-left: 40px;
+        }
+    }
+    
+    .aboutUs {
+        background-color: $primary-color;
+        padding: 100px 0;
+        .container {
+            max-width: 1070px;
+        }
+    }
+    
+    .work {
+        .bikeLeft1 {
+            background: url(../img/bg2.jpg) center center scroll;
+            background-size: cover;
+            height: 600px;
+            transition: background-color 1s ease-out;
+            img {
+                position: relative;
+                top: 40%;
+            }
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(40, 47, 53, 0);
+                transition: background-color 1s ease-out;
+                &:hover {
+                    background-color: rgba(40, 47, 53, 0.6);
+                }
+            }
+        }
+        .bikeRight1 {
+            padding: 50px 40px;
+            height: 400px;
+            p {
+                &::after {
+                    content: "";
+                    display: block;
+                    height: 2px;
+                    width: 50px;
+                    background-color: $underline-color;
+                    margin: 40px auto;
+                }
+            }
+        }
+        .bikeBottom {
+            background: url(../img/bgbottom.jpg) center center scroll;
+            background-size: cover;
+            height: 200px;
+            position: relative;
+            text-align: center;
+            .arrow {
+                position: absolute
+            }
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(40, 47, 53, 0);
+                transition: background-color 1s ease-out;
+                &:hover {
+                    background-color: rgba(40, 47, 53, 0.6);
+                }
+            }
+        }
+        .bikeLeft2 {
+            @extend .bikeLeft1;
+            background: url(../img/bg3.jpg) center center scroll;
+            background-size: cover;
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(40, 47, 53, 0);
+                transition: background-color 1s ease-out;
+                &:hover {
+                    background-color: rgba(40, 47, 53, 0.6);
+                }
+            }
+        }
+        .bikeRight2 {
+            @extend .bikeRight1;
+        }
+        .bikeBottom2 {
+            @extend .bikeBottom;
+            background: url('/assets/img/bgbottom2.jpg') center center scroll;
+            background-size: cover;
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(40, 47, 53, 0);
+                transition: background-color 1s ease-out;
+                &:hover {
+                    background-color: rgba(40, 47, 53, 0.6);
+                }
+            }
+        }
+        .bikeLeft3 {
+            @extend .bikeLeft1;
+            background: url('/assets/img/bg4.jpg') center center scroll;
+            background-size: cover;
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(40, 47, 53, 0);
+                transition: background-color 1s ease-out;
+                &:hover {
+                    background-color: rgba(40, 47, 53, 0.6);
+                }
+            }
+        }
+        .bikeCenter {
+            @extend .bikeRight1;
+        }
+        .bikeBottom3 {
+            @extend .bikeBottom;
+            background: url('/assets/img/bgbottom3.jpg') center center scroll;
+            background-size: cover;
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(40, 47, 53, 0);
+                transition: background-color 1s ease-out;
+                &:hover {
+                    background-color: rgba(40, 47, 53, 0.6);
+                }
+            }
+        }
+        .bikeRight3 {
+            @extend .bikeLeft1;
+            background: url('/assets/img/bg5.jpg') center center scroll;
+            background-size: cover;
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(40, 47, 53, 0);
+                transition: background-color 1s ease-out;
+                &:hover {
+                    background-color: rgba(40, 47, 53, 0.6);
+                }
+            }
+        }
+    }
+    
+    .twitter {
+        padding: 100px 0;
+        img {
+            margin-bottom: 20px;
+        }
+        .twitterName {
+            color: #353738;
+            font-weight: 700;
+        }
+        span {
+            font-weight: 400;
+            color: $font-color;
+        }
+    }
+    
+    .carousel-indicators {
+        position: absolute;
+        top: 130px;
+        margin-bottom: 50px;
+    }
+    
+    .carousel-indicators .active {
+        background-color: #a9afb3;
+    }
+    
+    .carousel-indicators li {
+        border-color: #a9afb3;
+    }
+    
+    .shop {
+        .shop1 {
+            background: url('/assets/img/shop1.jpg') center center scroll;
+            background-size: cover;
+            height: 267px;
+            float: left;
+            width: 50%;
+            position: relative;
+            text-align: center;
+            .shopOverlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(100, 194, 150, 0);
+                transition: all .5s ease-in;
+                &:hover {
+                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background-color: rgba(100, 194, 150, 0.7);
+                }
+            }
+        }
+        .shop2 {
+            background: url('/assets/img/shop2.jpg') center center scroll;
+            background-size: cover;
+            height: 267px;
+            width: 50%;
+            float: right;
+            position: relative;
+            .shopOverlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(100, 194, 150, 0);
+                transition: all .5s ease-in;
+                &:hover {
+                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background-color: rgba(100, 194, 150, 0.7);
+                }
+            }
+        }
+        .shop3 {
+            background: url('/assets/img/shop3.jpg') center center scroll;
+            background-size: cover;
+            width: 100%;
+            height: 267px;
+            float: right;
+            position: relative;
+            .shopOverlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(100, 194, 150, 0);
+                transition: all .5s ease-in;
+                &:hover {
+                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background-color: rgba(100, 194, 150, 0.7);
+                }
+            }
+        }
+        .shop4 {
+            background: url('/assets/img/shop4.jpg') center center scroll;
+            background-size: cover;
+            height: 534px;
+            width: 50%;
+            float: left;
+            position: relative;
+            .shopOverlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(100, 194, 150, 0);
+                transition: all .5s ease-in;
+                &:hover {
+                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background-color: rgba(100, 194, 150, 0.7);
+                }
+            }
+        }
+        .shop5 {
+            background: url('/assets/img/shop5.jpg') center center scroll;
+            background-size: cover;
+            height: 534px;
+            width: 50%;
+            float: right;
+            position: relative;
+            .shopOverlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(100, 194, 150, 0);
+                transition: all .5s ease-in;
+                &:hover {
+                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background-color: rgba(100, 194, 150, 0.7);
+                }
+            }
+        }
+        .shop6 {
+            background: url('/assets/img/shop6.jpg') center center scroll;
+            background-size: cover;
+            width: 100%;
+            height: 267px;
+            position: relative;
+            .shopOverlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(100, 194, 150, 0);
+                transition: all .5s ease-in;
+                &:hover {
+                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background-color: rgba(100, 194, 150, 0.7);
+                }
+            }
+        }
+        .shop7 {
+            background: url('/assets/img/shop7.jpg') center center scroll;
+            background-size: cover;
+            width: 100%;
+            height: 267px;
+            position: relative;
+            .shopOverlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(100, 194, 150, 0);
+                transition: all .7s ease-in;
+                &:hover {
+                    background: url('/assets/img/shopnow.png') center center no-repeat scroll;
+                    background-color: rgba(100, 194, 150, 0.7);
+                }
+            }
+        }
+        .discover {
+            background-color: #282f35;
+            padding: 70px;
+            text-align: center;
+            button {
+                padding: 15px 50px;
+                text-transform: uppercase;
+                background-color: #282f35;
+                border: 1px solid #fff;
+                color: #fff;
+                font-family: 'Lato', sans-serif;
+                font-size: 14px;
+                letter-spacing: 2px;
+                font-weight: 700;
+                transition: all .5s ease;
+                &:hover {
+                    background-color: #64c29e;
+                }
+            }
+        }
+    }
+    
+    .contact {
+        padding: 100px 0;
+        img {
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 24px;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        input {
+            height: 68px;
+            width: 400px;
+            padding: 20px;
+            &::placeholder {
+                font-family: 'Lato', sans-serif;
+                font-size: 24px;
+                font-style: italic;
+            }
+        }
+        button {
+            height: 68px;
+            padding: 0 40px;
+            background-color: #64c29e;
+            text-align: center;
+            color: #fff;
+            border: none;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            margin-left: 10px;
+        }
+    }
+    
+    .footer {
+        background-color: $primary-color;
+        padding: 100px 0;
+        .company {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: -10px;
+        }
+        .street {
+            font-size: 16px;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: -10px;
+        }
+        .email {
+            @extend .street;
+        }
+        ul {
+            margin-top: 20px;
+            li {
+                padding: 0 5px;
+                display: inline-block;
+            }
+        }
+        .yebologo {
+            margin-top: 20px;
+        }
+        .footerLeft {
+            text-align: left;
+        }
+        .footerCenter {
+            text-align: center;
+        }
+        .footerRight {
+            text-align: right;
+        }
+    }

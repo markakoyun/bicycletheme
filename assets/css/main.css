@@ -1,0 +1,601 @@
+/* line 7, ../scss/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 13, ../scss/main.scss */
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 18, ../scss/main.scss */
+p {
+  color: #848789;
+  line-height: 180%;
+}
+
+/* line 23, ../scss/main.scss */
+a {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 27, ../scss/main.scss */
+ul {
+  text-decoration: none;
+}
+
+/* line 31, ../scss/main.scss */
+li {
+  list-style: none;
+}
+
+/* line 36, ../scss/main.scss */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 30px 0 20px 0;
+}
+
+/* line 44, ../scss/main.scss */
+.paddingNone {
+  padding: 0;
+}
+
+/* line 49, ../scss/main.scss */
+.clear::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 57, ../scss/main.scss */
+.header {
+  background: url(../img/bg.jpg) center center scroll;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 30px;
+}
+/* line 63, ../scss/main.scss */
+.header .menu nav ul {
+  text-align: center;
+}
+/* line 65, ../scss/main.scss */
+.header .menu nav ul li {
+  display: inline;
+}
+/* line 67, ../scss/main.scss */
+.header .menu nav ul li a {
+  color: #353738;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 75, ../scss/main.scss */
+.header .menu .menuMobi {
+  float: right;
+  position: absolute;
+  top: 50px;
+  left: 90%;
+  color: #282828;
+  display: none;
+}
+/* line 83, ../scss/main.scss */
+.header .menu .mobileLogo {
+  text-align: center;
+}
+/* line 85, ../scss/main.scss */
+.header .menu .mobileLogo .mobLogo {
+  display: none;
+}
+
+/* line 93, ../scss/main.scss */
+.menuRight,
+.menuLeft {
+  display: inline;
+}
+
+/* line 97, ../scss/main.scss */
+.menuRight {
+  margin-left: 50px;
+}
+/* line 99, ../scss/main.scss */
+.menuRight li:nth-child(1) {
+  margin-right: 40px;
+}
+
+/* line 104, ../scss/main.scss */
+.menuLeft {
+  margin-right: 50px;
+}
+/* line 106, ../scss/main.scss */
+.menuLeft li:nth-child(2) {
+  margin-left: 40px;
+}
+
+/* line 111, ../scss/main.scss */
+.aboutUs {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+/* line 114, ../scss/main.scss */
+.aboutUs .container {
+  max-width: 1070px;
+}
+
+/* line 120, ../scss/main.scss */
+.work .bikeLeft1, .work .bikeLeft2, .work .bikeLeft3, .work .bikeRight3 {
+  background: url(../img/bg2.jpg) center center scroll;
+  background-size: cover;
+  height: 600px;
+  transition: background-color 1s ease-out;
+}
+/* line 125, ../scss/main.scss */
+.work .bikeLeft1 img, .work .bikeLeft2 img, .work .bikeLeft3 img, .work .bikeRight3 img {
+  position: relative;
+  top: 40%;
+}
+/* line 129, ../scss/main.scss */
+.work .bikeLeft1 .overlay, .work .bikeLeft2 .overlay, .work .bikeLeft3 .overlay, .work .bikeRight3 .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 47, 53, 0);
+  transition: background-color 1s ease-out;
+}
+/* line 137, ../scss/main.scss */
+.work .bikeLeft1 .overlay:hover, .work .bikeLeft2 .overlay:hover, .work .bikeLeft3 .overlay:hover, .work .bikeRight3 .overlay:hover {
+  background-color: rgba(40, 47, 53, 0.6);
+}
+/* line 142, ../scss/main.scss */
+.work .bikeRight1, .work .bikeRight2, .work .bikeCenter {
+  padding: 50px 40px;
+  height: 400px;
+}
+/* line 146, ../scss/main.scss */
+.work .bikeRight1 p::after, .work .bikeRight2 p::after, .work .bikeCenter p::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50px;
+  background-color: #d7d7d7;
+  margin: 40px auto;
+}
+/* line 156, ../scss/main.scss */
+.work .bikeBottom, .work .bikeBottom2, .work .bikeBottom3 {
+  background: url(../img/bgbottom.jpg) center center scroll;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+/* line 162, ../scss/main.scss */
+.work .bikeBottom .arrow, .work .bikeBottom2 .arrow, .work .bikeBottom3 .arrow {
+  position: absolute;
+}
+/* line 165, ../scss/main.scss */
+.work .bikeBottom .overlay, .work .bikeBottom2 .overlay, .work .bikeBottom3 .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 47, 53, 0);
+  transition: background-color 1s ease-out;
+}
+/* line 173, ../scss/main.scss */
+.work .bikeBottom .overlay:hover, .work .bikeBottom2 .overlay:hover, .work .bikeBottom3 .overlay:hover {
+  background-color: rgba(40, 47, 53, 0.6);
+}
+/* line 178, ../scss/main.scss */
+.work .bikeLeft2 {
+  background: url(../img/bg3.jpg) center center scroll;
+  background-size: cover;
+}
+/* line 182, ../scss/main.scss */
+.work .bikeLeft2 .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 47, 53, 0);
+  transition: background-color 1s ease-out;
+}
+/* line 190, ../scss/main.scss */
+.work .bikeLeft2 .overlay:hover {
+  background-color: rgba(40, 47, 53, 0.6);
+}
+/* line 198, ../scss/main.scss */
+.work .bikeBottom2 {
+  background: url("/assets/img/bgbottom2.jpg") center center scroll;
+  background-size: cover;
+}
+/* line 202, ../scss/main.scss */
+.work .bikeBottom2 .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 47, 53, 0);
+  transition: background-color 1s ease-out;
+}
+/* line 210, ../scss/main.scss */
+.work .bikeBottom2 .overlay:hover {
+  background-color: rgba(40, 47, 53, 0.6);
+}
+/* line 215, ../scss/main.scss */
+.work .bikeLeft3 {
+  background: url("/assets/img/bg4.jpg") center center scroll;
+  background-size: cover;
+}
+/* line 219, ../scss/main.scss */
+.work .bikeLeft3 .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 47, 53, 0);
+  transition: background-color 1s ease-out;
+}
+/* line 227, ../scss/main.scss */
+.work .bikeLeft3 .overlay:hover {
+  background-color: rgba(40, 47, 53, 0.6);
+}
+/* line 235, ../scss/main.scss */
+.work .bikeBottom3 {
+  background: url("/assets/img/bgbottom3.jpg") center center scroll;
+  background-size: cover;
+}
+/* line 239, ../scss/main.scss */
+.work .bikeBottom3 .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 47, 53, 0);
+  transition: background-color 1s ease-out;
+}
+/* line 247, ../scss/main.scss */
+.work .bikeBottom3 .overlay:hover {
+  background-color: rgba(40, 47, 53, 0.6);
+}
+/* line 252, ../scss/main.scss */
+.work .bikeRight3 {
+  background: url("/assets/img/bg5.jpg") center center scroll;
+  background-size: cover;
+}
+/* line 256, ../scss/main.scss */
+.work .bikeRight3 .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 47, 53, 0);
+  transition: background-color 1s ease-out;
+}
+/* line 264, ../scss/main.scss */
+.work .bikeRight3 .overlay:hover {
+  background-color: rgba(40, 47, 53, 0.6);
+}
+
+/* line 271, ../scss/main.scss */
+.twitter {
+  padding: 100px 0;
+}
+/* line 273, ../scss/main.scss */
+.twitter img {
+  margin-bottom: 20px;
+}
+/* line 276, ../scss/main.scss */
+.twitter .twitterName {
+  color: #353738;
+  font-weight: 700;
+}
+/* line 280, ../scss/main.scss */
+.twitter span {
+  font-weight: 400;
+  color: #848789;
+}
+
+/* line 286, ../scss/main.scss */
+.carousel-indicators {
+  position: absolute;
+  top: 130px;
+  margin-bottom: 50px;
+}
+
+/* line 292, ../scss/main.scss */
+.carousel-indicators .active {
+  background-color: #a9afb3;
+}
+
+/* line 296, ../scss/main.scss */
+.carousel-indicators li {
+  border-color: #a9afb3;
+}
+
+/* line 301, ../scss/main.scss */
+.shop .shop1 {
+  background: url("/assets/img/shop1.jpg") center center scroll;
+  background-size: cover;
+  height: 267px;
+  float: left;
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+/* line 309, ../scss/main.scss */
+.shop .shop1 .shopOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100, 194, 150, 0);
+  transition: all .5s ease-in;
+}
+/* line 317, ../scss/main.scss */
+.shop .shop1 .shopOverlay:hover {
+  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background-color: rgba(100, 194, 150, 0.7);
+}
+/* line 323, ../scss/main.scss */
+.shop .shop2 {
+  background: url("/assets/img/shop2.jpg") center center scroll;
+  background-size: cover;
+  height: 267px;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+/* line 330, ../scss/main.scss */
+.shop .shop2 .shopOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100, 194, 150, 0);
+  transition: all .5s ease-in;
+}
+/* line 338, ../scss/main.scss */
+.shop .shop2 .shopOverlay:hover {
+  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background-color: rgba(100, 194, 150, 0.7);
+}
+/* line 344, ../scss/main.scss */
+.shop .shop3 {
+  background: url("/assets/img/shop3.jpg") center center scroll;
+  background-size: cover;
+  width: 100%;
+  height: 267px;
+  float: right;
+  position: relative;
+}
+/* line 351, ../scss/main.scss */
+.shop .shop3 .shopOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100, 194, 150, 0);
+  transition: all .5s ease-in;
+}
+/* line 359, ../scss/main.scss */
+.shop .shop3 .shopOverlay:hover {
+  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background-color: rgba(100, 194, 150, 0.7);
+}
+/* line 365, ../scss/main.scss */
+.shop .shop4 {
+  background: url("/assets/img/shop4.jpg") center center scroll;
+  background-size: cover;
+  height: 534px;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+/* line 372, ../scss/main.scss */
+.shop .shop4 .shopOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100, 194, 150, 0);
+  transition: all .5s ease-in;
+}
+/* line 380, ../scss/main.scss */
+.shop .shop4 .shopOverlay:hover {
+  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background-color: rgba(100, 194, 150, 0.7);
+}
+/* line 386, ../scss/main.scss */
+.shop .shop5 {
+  background: url("/assets/img/shop5.jpg") center center scroll;
+  background-size: cover;
+  height: 534px;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+/* line 393, ../scss/main.scss */
+.shop .shop5 .shopOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100, 194, 150, 0);
+  transition: all .5s ease-in;
+}
+/* line 401, ../scss/main.scss */
+.shop .shop5 .shopOverlay:hover {
+  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background-color: rgba(100, 194, 150, 0.7);
+}
+/* line 407, ../scss/main.scss */
+.shop .shop6 {
+  background: url("/assets/img/shop6.jpg") center center scroll;
+  background-size: cover;
+  width: 100%;
+  height: 267px;
+  position: relative;
+}
+/* line 413, ../scss/main.scss */
+.shop .shop6 .shopOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100, 194, 150, 0);
+  transition: all .5s ease-in;
+}
+/* line 421, ../scss/main.scss */
+.shop .shop6 .shopOverlay:hover {
+  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background-color: rgba(100, 194, 150, 0.7);
+}
+/* line 427, ../scss/main.scss */
+.shop .shop7 {
+  background: url("/assets/img/shop7.jpg") center center scroll;
+  background-size: cover;
+  width: 100%;
+  height: 267px;
+  position: relative;
+}
+/* line 433, ../scss/main.scss */
+.shop .shop7 .shopOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100, 194, 150, 0);
+  transition: all .7s ease-in;
+}
+/* line 441, ../scss/main.scss */
+.shop .shop7 .shopOverlay:hover {
+  background: url("/assets/img/shopnow.png") center center no-repeat scroll;
+  background-color: rgba(100, 194, 150, 0.7);
+}
+/* line 447, ../scss/main.scss */
+.shop .discover {
+  background-color: #282f35;
+  padding: 70px;
+  text-align: center;
+}
+/* line 451, ../scss/main.scss */
+.shop .discover button {
+  padding: 15px 50px;
+  text-transform: uppercase;
+  background-color: #282f35;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  transition: all .5s ease;
+}
+/* line 462, ../scss/main.scss */
+.shop .discover button:hover {
+  background-color: #64c29e;
+}
+
+/* line 469, ../scss/main.scss */
+.contact {
+  padding: 100px 0;
+}
+/* line 471, ../scss/main.scss */
+.contact img {
+  margin-bottom: 20px;
+}
+/* line 474, ../scss/main.scss */
+.contact p {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+/* line 479, ../scss/main.scss */
+.contact input {
+  height: 68px;
+  width: 400px;
+  padding: 20px;
+}
+/* line 483, ../scss/main.scss */
+.contact input::placeholder {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+}
+/* line 489, ../scss/main.scss */
+.contact button {
+  height: 68px;
+  padding: 0 40px;
+  background-color: #64c29e;
+  text-align: center;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  margin-left: 10px;
+}
+
+/* line 503, ../scss/main.scss */
+.footer {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+/* line 506, ../scss/main.scss */
+.footer .company {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+/* line 511, ../scss/main.scss */
+.footer .street, .footer .email {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: -10px;
+}
+/* line 520, ../scss/main.scss */
+.footer ul {
+  margin-top: 20px;
+}
+/* line 522, ../scss/main.scss */
+.footer ul li {
+  padding: 0 5px;
+  display: inline-block;
+}
+/* line 527, ../scss/main.scss */
+.footer .yebologo {
+  margin-top: 20px;
+}
+/* line 530, ../scss/main.scss */
+.footer .footerLeft {
+  text-align: left;
+}
+/* line 533, ../scss/main.scss */
+.footer .footerCenter {
+  text-align: center;
+}
+/* line 536, ../scss/main.scss */
+.footer .footerRight {
+  text-align: right;
+}

@@ -1,0 +1,72 @@
+@media screen and (max-width: 992px) {
+  /* line 3, ../scss/responsive.scss */
+  .footer .footerLeft {
+    text-align: center;
+  }
+  /* line 6, ../scss/responsive.scss */
+  .footer .footerCenter {
+    margin-top: 40px;
+  }
+  /* line 9, ../scss/responsive.scss */
+  .footer .footerRight {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 628px) {
+  /* line 18, ../scss/responsive.scss */
+  .header .menu nav {
+    display: none;
+  }
+  /* line 21, ../scss/responsive.scss */
+  .header .menu .menuMobi {
+    display: block;
+  }
+  /* line 25, ../scss/responsive.scss */
+  .header .menu .mobileLogo .mobLogo {
+    display: inline-block;
+  }
+
+  /* line 32, ../scss/responsive.scss */
+  .work .bikeLeft1 {
+    max-height: 300px;
+  }
+  /* line 35, ../scss/responsive.scss */
+  .work .bikeLeft2 {
+    max-height: 300px;
+  }
+  /* line 38, ../scss/responsive.scss */
+  .work .bikeLeft3 {
+    max-height: 300px;
+  }
+  /* line 41, ../scss/responsive.scss */
+  .work .bikeRight3 {
+    max-height: 300px;
+  }
+
+  /* line 46, ../scss/responsive.scss */
+  .shop .shop4 {
+    max-height: 267px;
+  }
+  /* line 49, ../scss/responsive.scss */
+  .shop .shop5 {
+    max-height: 267px;
+  }
+}
+@media screen and (max-width: 560px) {
+  /* line 57, ../scss/responsive.scss */
+  .contact input {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 463px) {
+  /* line 65, ../scss/responsive.scss */
+  .contact input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 69, ../scss/responsive.scss */
+  .contact button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
